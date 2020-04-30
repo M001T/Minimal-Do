@@ -9,39 +9,35 @@ Simples e para uso de Estudo!
 
 <h3> Kernel 📦</h3>
 
-- Ruby 2.6.3+
+- Flutter/Dart
+
+- Ruby 2.6.3+ 
+- Kotlin
+- Swfit
 
 
 <h3> Install 💻</h3>
 
 ## Precisa de:
-1. Ruby
-2. Postgresql (qualquer SQL DB)
+1. Xcode (IOS)
+2. Flutter (ANDROID/IOS)
+3. Android Studio SDK (ANDROID)
 
 ## Setup 🔧
-setar config de db etc...
-> ```config/config.rb```
+Pegar Pacotes...
+> ```flutter pub get```
 
-Instalar Gems 💎
-> ```rake gem:install```
+Rodar em Debug 
+> ```flutter run```
 
-Criar Tabela db 📊
-> ```rake db:migrate```
+Build Android 
+> ```flutter build apk```
 
-## Test 🔨
-rspec
-> ```rake run:rspec```
-
-## Run 💻
-Terminal :
-```rake run:term```
-
-Web :
-```rake run:web```
-
-
+Build IOS 
+> ```flutter build ios```
 
 By Eric Montelares ❤️
+
 
 
 ## Getting Started
