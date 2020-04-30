@@ -36,10 +36,7 @@ Build Android
 Build IOS 
 > ```flutter build ios```
 
-![Image description](https://ibb.co/5c6GrGK
-https://ibb.co/dMDGRtN
-https://ibb.co/xsqc6D8
-https://ibb.co/mFvFS8r)
+![Image description](https://ibb.co/5c6GrGK)
 
 By Eric Montelares ❤️
 
