@@ -1,6 +1,44 @@
-# minimaldo
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Simples para te deixar mais feliz
+#  :pencil2:  Minimal Do
+Um App simples para te fazer Feliz!
+
+<h3> Sobre 📃</h3>
+
+Simples e para uso de Estudo!
+
+<h3> Kernel 📦</h3>
+
+- Flutter/Dart
+
+- Ruby 2.6.3+ 
+- Kotlin
+- Swfit
+
+
+<h3> Install 💻</h3>
+
+## Precisa de:
+1. Xcode (IOS)
+2. Flutter (ANDROID/IOS)
+3. Android Studio SDK (ANDROID)
+
+## Setup 🔧
+Pegar Pacotes...
+> ```flutter pub get```
+
+Rodar em Debug 
+> ```flutter run```
+
+Build Android 
+> ```flutter build apk```
+
+Build IOS 
+> ```flutter build ios```
+
+By Eric Montelares ❤️
+
+
 
 ## Getting Started
 
