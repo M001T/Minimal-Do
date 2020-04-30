@@ -60,7 +60,7 @@ class _MyAppState extends State<Opening> with SingleTickerProviderStateMixin {
                 ),
                 DelayedAnimation(
                   child: Text(
-                    "Hi There",
+                    "Welcome",
                     style: TextStyle(
                         fontWeight: FontWeight.bold,
                         fontSize: 35.0,
@@ -83,14 +83,7 @@ class _MyAppState extends State<Opening> with SingleTickerProviderStateMixin {
                 ),
                 DelayedAnimation(
                   child: Text(
-                    "Seu app de tarefas",
-                    style: TextStyle(fontSize: 20.0, color: Colors.black),
-                  ),
-                  delay: delayedAmount + 3000,
-                ),
-                DelayedAnimation(
-                  child: Text(
-                    "Espero que você tenha um bom dia",
+                    "Tenha um bom dia",
                     style: TextStyle(fontSize: 20.0, color: Colors.black),
                   ),
                   delay: delayedAmount + 3000,
@@ -148,7 +141,7 @@ class _MyAppState extends State<Opening> with SingleTickerProviderStateMixin {
                     MaterialPageRoute(builder: (context) => TaskScreen()));
               },
               child: Text(
-                'Hi MinimalDo',
+                'Olá MinimalDo',
                 style: TextStyle(
                   fontSize: 20.0,
                   fontWeight: FontWeight.bold,
