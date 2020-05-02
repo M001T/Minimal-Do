@@ -32,7 +32,7 @@ class _MyAppState extends State<Opening> with SingleTickerProviderStateMixin {
 
   @override
   Widget build(BuildContext context) {
-    final color = Colors.white;
+    // /final color = Colors.white;
     _scale = 1 - _controller.value;
     return MaterialApp(
       debugShowCheckedModeBanner: false,
