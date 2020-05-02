@@ -79,17 +79,14 @@ class _MyAppState extends State<Opening> with SingleTickerProviderStateMixin {
                   delay: delayedAmount + 1000,
                 ),
                 SizedBox(
-                  height: 30.0,
+                  height: 10.0,
                 ),
                 DelayedAnimation(
-                  child: Text(
-                    "Tenha um bom dia",
-                    style: TextStyle(fontSize: 20.0, color: Colors.black),
-                  ),
-                  delay: delayedAmount + 3000,
+                  child: Image.asset('img/undraw.png', width: 300, height: 150,),
+                  delay: delayedAmount + 200,
                 ),
                 SizedBox(
-                  height: 100.0,
+                  height: 30.0,
                 ),
                 DelayedAnimation(
                   child: GestureDetector(

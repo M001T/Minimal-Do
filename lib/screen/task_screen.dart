@@ -4,6 +4,7 @@ import 'dart:io';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:minimaldo/screen/anim/task_card_animation.dart';
 import 'package:path_provider/path_provider.dart';
 
 class TaskScreen extends StatefulWidget {
@@ -13,6 +14,7 @@ class TaskScreen extends StatefulWidget {
 
 class _HomeState extends State<TaskScreen> {
   final _toDoController = TextEditingController();
+  final int delayedAmount = 100;
 
   List _toDoList = [];
 
@@ -67,16 +69,19 @@ class _HomeState extends State<TaskScreen> {
       backgroundColor: Colors.white,
       body: Column(
         children: <Widget>[
-          Padding(
-            padding: const EdgeInsets.only(left: 20, top: 50),
-            child: Align(
-              alignment: Alignment.bottomLeft,
-              child: Text(
-                "Tarefas",
-                style: TextStyle(
-                    fontSize: 33,
-                    fontWeight: FontWeight.bold,
-                    color: Colors.black),
+          TaskCardAnimation(
+            delay: delayedAmount + 100,
+            child: Padding(
+              padding: const EdgeInsets.only(left: 20, top: 50),
+              child: Align(
+                alignment: Alignment.bottomLeft,
+                child: Text(
+                  "Tarefas",
+                  style: TextStyle(
+                      fontSize: 33,
+                      fontWeight: FontWeight.bold,
+                      color: Colors.black),
+                ),
               ),
             ),
           ),
@@ -130,15 +135,17 @@ class _HomeState extends State<TaskScreen> {
           alignment: Alignment(-0.9, 0.0),
           child: Icon(
             Icons.delete,
-            color: Colors.white,
+            color: Colors.white
           ),
         ),
       ),
       direction: DismissDirection.startToEnd,
       child: CheckboxListTile(
+        activeColor: Colors.blue,
         title: Text(_toDoList[index]["title"]),
         value: _toDoList[index]["ok"],
         secondary: CircleAvatar(
+          backgroundColor: Colors.white,
           child: Icon(
               _toDoList[index]["ok"] ? FontAwesomeIcons.check : Icons.error),
         ),
