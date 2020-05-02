@@ -3,19 +3,6 @@
 #  :pencil2:  Minimal Do
 Um App simples para te fazer Feliz!
 
-<h3> Sobre 📃</h3>
-
-Simples e para uso de Estudo!
-
-<h3> Kernel 📦</h3>
-
-- Flutter/Dart
-
-- Ruby 2.6.3+ 
-- Kotlin
-- Swfit
-
-
 <h3> Install 💻</h3>
 
 ## Precisa de:
@@ -35,6 +22,8 @@ Build Android
 
 Build IOS 
 > ```flutter build ios```
+
+![Alt text](flutter_01.png?raw=true "Title")
 
 By Eric Montelares ❤️
 
